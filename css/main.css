@@ -40,10 +40,20 @@ td, th {
 }
 
 .teams {
-	max-width: 60%;
+	max-width: 50%;
 }
 
 .prediction {
-	max-width: 20%;
+	max-width: 50%;
+}
+
+.score,
+.result,
+.pts,
+.name,
+.teams,
+.Prediction {
+	background-color: #333;
+	color: white;
 }
 
