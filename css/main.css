@@ -35,6 +35,11 @@ img {
 	margin-top: 85px;
 }
 
+.top-table {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
