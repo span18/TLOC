@@ -14,11 +14,25 @@ img {
 }
 
 .mainTitle {
-	color: #4c220a;
-	font-size: 25px;
+	/*color: #4c220a;*/
+	color: #fff;
+	font-size: 55px;
+	text-align: center;
+	margin-top: -125px;
+	margin-bottom: 150px;
 	font-weight: 800;
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
+}
+.table,
+.heading {
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-left: 25px;
+}
+
+.heading {
+	margin-top: 85px;
 }
 
 table {
@@ -27,6 +41,7 @@ table {
   width: 80%;
   margin-left: 25px;
   margin-right: 25px;
+  margin-bottom: 25px;
 }
 
 td, th {
@@ -67,6 +82,9 @@ td, th {
 
 footer {
 	background-color: #333;
-	color: #fff
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
 }
 
