@@ -107,6 +107,12 @@ td, th {
 	height: 20px;
 }
 
+hr {
+	color: #333;
+	width: 80%;
+	height: 2px;
+}
+
 footer {
 	background-color: #333;
 	font-size: 25px;
