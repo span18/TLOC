@@ -28,51 +28,65 @@ img {
 .heading {
 	font-size: 35px;
 	text-transform: uppercase;
-	margin-left: 25px;
+	text-align: center;
+}
+
+.table {
+	padding-top: 50px;
 }
 
 .heading {
 	margin-top: 85px;
 }
 
-.top-table {
-	margin-left: 10px;
-	margin-right: 10px;
+section {
+	width: 100%
 }
 
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 80%;
-  margin-left: 25px;
-  margin-right: 25px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 25px;
+}
+
+.top-table {
+	margin-bottom: 80px;
+}
+
+tr {
+	margin-left: 0 auto;
+	margin-right: 0 auto:;
 }
 
 td, th {
   border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
+  width: 100px;
+
 }
 
-.green {
+.green,
+.tally-green {
 	background-color: green;
 }
 
-.red {
+.red,
+.tally-red {
 	background-color: red;
 }
 
-.orange {
+.orange,
+.tally-orange {
 	background-color: orange;
 }
 
-.teams {
-	max-width: 50%;
-}
-
+.teams,
 .prediction {
-	max-width: 50%;
+	width: 50%;
 }
 
 .score,
@@ -83,6 +97,14 @@ td, th {
 .Prediction {
 	background-color: #333;
 	color: white;
+}
+
+.tally-red,
+.tally-orange,
+.tally-green {
+	display: inline-block;
+	width: 10px;
+	height: 20px;
 }
 
 footer {
