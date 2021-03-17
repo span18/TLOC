@@ -31,10 +31,6 @@ img {
 	text-align: center;
 }
 
-.table {
-	padding-top: 50px;
-}
-
 .heading {
 	margin-top: 85px;
 }
@@ -49,23 +45,22 @@ table {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px;
 }
 
 .top-table {
 	margin-bottom: 80px;
+	border-collapse: separate;
 }
 
-tr {
-	margin-left: 0 auto;
-	margin-right: 0 auto:;
+.top-table-width {
+	display: inline-block;
+	width: 15%;
 }
 
 td, th {
   border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
-  max-width: auto;
 }
 
 .total {
