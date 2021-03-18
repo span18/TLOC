@@ -51,11 +51,15 @@ table {
 .top-table {
 	margin-bottom: 80px;
 	border-collapse: separate;
+	width: 95%;
 }
 
-.top-table-width {
-	display: inline-block;
-	width: 15%;
+
+
+
+
+.new-table {
+	margin-bottom: 47px;
 }
 
 td, th {
@@ -84,17 +88,31 @@ td, th {
 	background-color: orange;
 }
 
-.teams,
 .prediction {
 	width: 50%;
 }
+
+.teams {
+	width: 50%;
+}
+
+.new-teams {
+	width: 15%;
+}
+
+.new-prediction {
+	width: 40%;
+}
+
 
 .score,
 .result,
 .pts,
 .name,
 .teams,
-.Prediction {
+.prediction,
+.new-teams,
+.new-prediction {
 	background-color: #333;
 	color: white;
 }
@@ -133,3 +151,9 @@ footer {
 	}
 }
 
+@media screen and (max-width: 400px) {
+	.top-table {
+		border-collapse: collapse;
+		font-size: 14px; 
+	}
+}
