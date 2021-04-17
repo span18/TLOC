@@ -13,6 +13,12 @@ img {
 	height: 100%;
 }
 
+.arrow {
+	font-size: 12px;
+	color: green;
+	float: right;
+}
+
 .mainTitle {
 	/*color: #4c220a;*/
 	color: #fff;
