@@ -13,14 +13,7 @@ img {
 	height: 100%;
 }
 
-.arrow {
-	font-size: 14px;
-	color: green;
-	float: right;
-}
-
 .mainTitle {
-	/*color: #4c220a;*/
 	color: #fff;
 	font-size: 55px;
 	text-align: center;
@@ -30,6 +23,7 @@ img {
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
 }
+
 .table,
 .heading {
 	font-size: 35px;
