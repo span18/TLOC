@@ -8,6 +8,10 @@ body {
 	margin: auto;
 }
 
+.row {
+	margin-top: 25px;
+}
+
 .column {
   float: left;
   width: 33.33%;
@@ -51,7 +55,14 @@ img {
 }
 
 .resize {
-	width: 63%;
+	width: 64%;
+	height: auto;
+	display: flex;
+	margin: 0 auto;
+}
+
+.resizeOne {
+	width: 70%;
 	height: auto;
 	display: flex;
 	margin: 0 auto;
