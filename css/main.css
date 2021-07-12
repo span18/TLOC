@@ -33,16 +33,19 @@ ul {
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
-
 }
 
 li {
 	width: 33.33%;
+	color: black;
 	border: 2px solid #333;
 	padding: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
+}
 
+a {
+	color: inherit;
 }
 
 #ticker {
