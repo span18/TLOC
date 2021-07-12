@@ -8,6 +8,14 @@ body {
 	margin: auto;
 }
 
+.buttons {
+	border: 5px solid #333;
+	padding: 5px;
+	margin-top: 0;
+	display: flex;
+	justify-content: center;
+}
+
 #ticker {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
