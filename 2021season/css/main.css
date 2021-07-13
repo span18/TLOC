@@ -42,17 +42,18 @@ a {
 	color: inherit;
 }
 
-#ticker {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-}
-
 img {
-	width: 100%;
+	width: 35%;
 	height: 100%;
 }
 
+.adjust {
+	width: 100%;
+	padding-top: 25px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
 .mainTitle {
 	color: #fff;
 	position: absolute;
