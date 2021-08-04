@@ -47,6 +47,9 @@ a {
   height: 22px;
   background-color: rgba(8, 0, 255, 0.63);
   color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2px;
 }
 
 img {
