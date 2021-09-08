@@ -27,6 +27,11 @@ img {
 	height: 100%;
 }
 
+.badges {
+height: auto;
+width: 25%;
+}
+
 .mainTitle {
 	color: #fff;
 	font-size: 55px;
