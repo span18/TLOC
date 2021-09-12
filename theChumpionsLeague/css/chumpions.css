@@ -20,10 +20,10 @@ body {
 }*/
 
 
-.table,
+/*.table,
 .heading {
 	font-size: 35px;
-}
+}*/
 
 th, .name, .result, .pts, .score, .new-teams, .new-prediction {
   background-color: #0b063e;
