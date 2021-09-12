@@ -37,8 +37,8 @@ footer {
 	background-color: #0b063e;
 }
 
-/*@media screen and (max-width: 1000px) {
- ul, li, .table, .heading {
+@media screen and (max-width: 500px) {
+ .table, .heading, .rules {
 		font-size: 20px;
 	}
-}*/
+}
