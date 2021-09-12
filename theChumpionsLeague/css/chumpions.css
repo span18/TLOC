@@ -85,6 +85,10 @@ td, th {
   font-weight: bold;
 }
 
+.relegated {
+	background-color: red;
+}
+
 .total {
 	font-size: 17px;
 	font-weight: bold;
