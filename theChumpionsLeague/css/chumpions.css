@@ -28,8 +28,8 @@ img {
 }
 
 .badges {
-height: auto;
-width: 25%;
+	height: auto;
+	width: 25%;
 }
 
 .mainTitle {
@@ -60,6 +60,7 @@ section {
 
 table {
   font-family: arial, sans-serif;
+  font-size: 22px;
   border-collapse: collapse;
   width: 95%;
   margin-left: auto;
@@ -81,6 +82,7 @@ td, th {
   border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
+  font-weight: bold;
 }
 
 .total {
@@ -128,7 +130,7 @@ td, th {
 .prediction,
 .new-teams,
 .new-prediction {
-	background-color: #333;
+	background-color: #0b063e;
 	color: white;
 }
 
@@ -147,7 +149,7 @@ hr {
 }
 
 footer {
-	background-color: #333;
+	background-color: #0b063e;
 	font-size: 25px;
 	color: #fff;
 	text-align: center;
@@ -161,8 +163,10 @@ footer {
 		margin-bottom: 0px;
 	} footer {
 		font-size: 20px;
-	} .table, .heading {
+	} table {
 		font-size: 20px;
+	} .heading, .table {
+		font-size: 25px;
 	}
 }
 
