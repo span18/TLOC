@@ -8,6 +8,40 @@ body {
 	margin: auto;
 }
 
+.container {
+	position: relative;
+	width: 100%;
+}
+
+ul {
+	display: flex;
+	width: 100%;
+	position: static;
+/*	left: 0;
+	bottom: -85px;*/
+	height: auto;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+li {
+	width: 98%;/*width: 33.33%;*/
+	color: black;
+	border: 2px solid #333;
+	padding: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+a {
+	color: inherit;
+}
 .buttons {
 	border: 5px solid #333;
 	padding: 5px;
@@ -171,6 +205,8 @@ footer {
 		font-size: 20px;
 	} .heading, .table {
 		font-size: 25px;
+	} ul, li {
+		font-size: 20px;
 	}
 }
 
