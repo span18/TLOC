@@ -25,7 +25,7 @@ body {
 	font-size: 35px;
 }*/
 
-th, .name, .result, .pts, .score, .new-teams, .new-prediction {
+th, .name, .result, .pts, .score, .new-teams, .new-prediction, .prediction, .teams {
   background-color: #0b063e;
 }
 
