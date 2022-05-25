@@ -24,6 +24,10 @@ body {
 .heading {
 	font-size: 35px;
 }*/
+.adjust {
+	width: 610px;
+}
+
 
 th, .name, .result, .pts, .score, .new-teams, .new-prediction, .prediction, .teams {
   background-color: #0b063e;
