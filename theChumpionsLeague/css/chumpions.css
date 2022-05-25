@@ -24,9 +24,6 @@ body {
 .heading {
 	font-size: 35px;
 }*/
-.adjust {
-	width: 100%;
-}
 
 
 th, .name, .result, .pts, .score, .new-teams, .new-prediction, .prediction, .teams {
