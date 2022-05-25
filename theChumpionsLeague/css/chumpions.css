@@ -25,6 +25,9 @@ body {
 	font-size: 35px;
 }*/
 
+.adjust {
+	padding: 0px;
+}
 
 th, .name, .result, .pts, .score, .new-teams, .new-prediction, .prediction, .teams {
   background-color: #0b063e;
@@ -41,5 +44,7 @@ footer {
 @media screen and (max-width: 500px) {
  .table, .heading, .rules {
 		font-size: 20px;
+	} .adjust {
+		width: 100%;
 	}
 }
