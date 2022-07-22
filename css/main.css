@@ -8,10 +8,10 @@ body {
 	margin: auto;
 }
 
-.container {
+/*.container {
 	position: relative;
 	width: 100%;
-}
+}*/
 
 /*ul {
 	display: flex;
@@ -62,7 +62,7 @@ a {
 	margin: 0 auto;
 }
 
-.mainTitle {
+/*.mainTitle {
 	color: #fff;
 	position: absolute;
 	left: 0;
@@ -76,7 +76,7 @@ a {
 	font-weight: 800;
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
-}
+}*/
 
 .table,
 .heading {
