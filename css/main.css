@@ -270,6 +270,9 @@ footer {
 @media screen and (max-width: 400px) {
 	.top-table {
 		border-collapse: collapse;
-		font-size: 14px; 
-	}
+		font-size: 14px;
+		} .subnav .subnavbtn: {
+		  padding: 10px;
+		  background-color: green;
+		}
 }
