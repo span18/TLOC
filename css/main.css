@@ -13,12 +13,10 @@ body {
 	width: 100%;
 }
 
-ul {
+/*ul {
 	display: flex;
 	width: 100%;
 	position: static;
-/*	left: 0;
-	bottom: -85px;*/
 	height: auto;
 	text-align: center;
 	margin: 0;
@@ -30,7 +28,7 @@ ul {
 }
 
 li {
-	width: 98%;/*width: 33.33%;*/
+	width: 98%;
 	color: black;
 	border: 2px solid #333;
 	padding: 5px;
@@ -40,7 +38,7 @@ li {
 
 a {
 	color: inherit;
-}
+}*/
 
 #ticker {
   width: 100%;
