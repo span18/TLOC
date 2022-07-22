@@ -85,7 +85,7 @@ table {
 .top-table {
 	margin-bottom: 80px;
 	border-collapse: separate;
-	width: 95%;
+/*	width: 33.33%;*/
 }
 
 td, th {
@@ -104,6 +104,7 @@ td, th {
 	letter-spacing: 1px;
 	background-color: #333;
 	color: white;
+	width: 33.33%;
 }
 
 hr {
