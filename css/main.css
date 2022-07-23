@@ -70,7 +70,7 @@ body {
 
 /* Style the subnav links */
 .subnav-content a {
-  float: left;
+  float: right;
   color: white;
   text-decoration: none;
   height:  auto;
