@@ -21,8 +21,8 @@
   <div class="subnav">
     <div class="subnavbtn">Trophy Room</div>
     <div class="subnav-content">
+      <a href="../trophyCabinet/index.htmll">Hall Of Chumps</a>
       <a href="trophyCabinet/index.html">Trophy Cabinet</a>
-      <a href="trophyCabinet/index.html">Hall Of Chumps</a>
     </div>
   </div>
 
@@ -37,27 +37,32 @@
 
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">Daniel</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Gary</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Lewis</button>
-   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Richard</button>
+  <button class="tablinks" onclick="openCity(event, 'Daniel')">Daniel</button>
+  <button class="tablinks" onclick="openCity(event, 'Gary')">Gary</button>
+  <button class="tablinks" onclick="openCity(event, 'Lewis')">Lewis</button>
+   <button class="tablinks" onclick="openCity(event, 'Richard')">Richard</button>
 </div>
 
 <!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+<div id="Daniel" class="tabcontent">
+  <img src="images/TrophyCabinetDaniel.jpg" width="100%" height="100%" alt="trophy image">
 </div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
+<div id="Gary" class="tabcontent">
+  <img src="images/TrophyCabinetGary.jpg" width="100%" height="100%" alt="trophy image">
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<div id="Lewis" class="tabcontent">
+  <img src="images/TrophyCabinetLewis.jpg" width="100%" height="100%" alt="trophy image">
 </div>
+
+<div id="Richard" class="tabcontent">
+  <img src="images/TrophyCabinetRich.jpg" width="100%" height="100%" alt="trophy image">
+</div>
+
+
+  <span onclick="this.parentElement.style.display='none'"></span>
+
 
 <!--  <div class="row">
   <div class="column"><img class="resizeOne" src="../images/TLOCblack.png" width="100%" height="100%" alt="trophy image">
@@ -107,8 +112,8 @@
 		</div>
 
 	</section> -->
-
-	<script src="javascript/javascript.js"></script>
+<script>document.getElementById("defaultOpen").click();</script>
+<script src="javascript/javascript.js"></script>
 	
 </body>
 </html>
