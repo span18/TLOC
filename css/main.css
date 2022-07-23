@@ -29,7 +29,7 @@ body {
   padding: 12px;
   text-decoration: none;
   width: 25%;
-  height: 65px;
+  height: 60px;
 }
 
 /* The subnavigation menu */
@@ -50,7 +50,7 @@ body {
   font-family: inherit;
   margin: 0;
   width: auto;
-  height: 65px;
+  height: 60px;
 }
 
 /* Add a red background color to navigation links on hover */
