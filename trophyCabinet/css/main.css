@@ -166,6 +166,7 @@ td, th {
   border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
+  width: 33.33%;
 }
 
 .mainTitle {
@@ -181,11 +182,11 @@ td, th {
 	width: 33.33%;
 }
 
-.back-red h2{
+.back-red h3{
 	background-color: red;
 	text-align: center;
 	width: 95%;
-	height: 30px;
+	height: auto;
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 	margin-top: 5px;
@@ -221,6 +222,6 @@ footer {
 	.result,
 	.mainTitle {
 		border-collapse: collapse;
-		font-size: 13px;
+		font-size: 15px;
 	}
 }
