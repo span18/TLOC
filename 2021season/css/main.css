@@ -40,13 +40,22 @@ body {
   border: none;
   outline: none;
   color: white;
-  padding: 12px;
+  padding: 0px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
   width: auto;
   height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.subnavbtn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
 
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
