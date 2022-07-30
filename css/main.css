@@ -25,7 +25,7 @@ body {
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 18px;
   color: white;
   padding: 12px;
   text-decoration: none;
@@ -62,7 +62,6 @@ body {
   justify-content: center;
   align-items: center;
  }
-
 
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: red;
