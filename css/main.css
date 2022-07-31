@@ -37,6 +37,12 @@ body {
 	padding: 0px;
 }
 
+.home,
+.chumpion,
+.trophyRoom {
+background-color: red;
+}
+
 .subnav {
   float: left;
   overflow: hidden;
