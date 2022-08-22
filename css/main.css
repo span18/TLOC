@@ -110,15 +110,11 @@ body {
 	margin-top: 85px;
 }
 
- .upArrow,
- .downArrow,
- .noChangeArrow {
+ .arrow {
  	float: right;
-  width: 25px;
-  height: 25px;
-
+  width: 20px;
+  height: 20px;
 }
-
 
 section {
 	width: 100%;
