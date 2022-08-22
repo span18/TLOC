@@ -142,7 +142,11 @@ table {
 td, th {
   border: 1px solid #dddddd;
   text-align: center;
-  padding: 8px;
+  padding: 7px;
+}
+
+.name {
+		width: auto;
 }
 
 .total {
@@ -235,5 +239,7 @@ footer {
 		} .subnav .subnavbtn: {
 		  padding: 10px;
 		  background-color: green;
-		}
+		} .name {
+		width: 159px;
+	}
 }
