@@ -240,6 +240,7 @@ footer {
 		  padding: 10px;
 		  background-color: green;
 		} .name {
-		width: 120px;
+		width: 110px;
+		background-color: red;
 	}
 }
