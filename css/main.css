@@ -240,6 +240,9 @@ footer {
 		  padding: 10px;
 		  background-color: green;
 		} .name {
-		width: 110px;;
+		width: 110px;
+	} .correctResult,
+		.total {
+		width: 50px;
 	}
 }
