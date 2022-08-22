@@ -241,6 +241,7 @@ footer {
 		  background-color: green;
 		} .name {
 		width: 110px;
+		background-color: red;
 	} .correctResult,
 		.total {
 		width: 50px;
