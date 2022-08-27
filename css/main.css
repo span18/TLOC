@@ -40,7 +40,6 @@ body {
   width: 25%;
 }
 
-
 .subnav .subnavbtn {
   font-size: 17px;
   border: none;
@@ -67,7 +66,6 @@ body {
   background-color: red;
 }
 
-
 .subnav-content {
   display: none;
   position: absolute;
@@ -77,7 +75,6 @@ body {
   z-index: 1;
 }
 
-
 .subnav-content a {
   float: right;
   color: white;
@@ -85,12 +82,10 @@ body {
   height:  auto;
 }
 
-
 .subnav-content a:hover {
   background-color: #eee;
   color: black;
 }
-
 
 .subnav:hover .subnav-content {
   display: block;
