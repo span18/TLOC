@@ -25,9 +25,6 @@ body {
 	font-size: 35px;
 }*/
 
-.adjust {
-	padding: 0px;
-}
 
 th, .name, .result, .pts, .score, .new-teams, .new-prediction, .prediction, .teams {
   background-color: #0b063e;
@@ -39,16 +36,4 @@ th, .name, .result, .pts, .score, .new-teams, .new-prediction, .prediction, .tea
 
 footer {
 	background-color: #0b063e;
-}
-
-@media screen and (max-width: 500px) {
- .table, .heading, .rules {
-		font-size: 20px;
-	} .adjust {
-		width: 100%;
-		margin-top: 15px;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-bottom: 28px;
-	}
 }
