@@ -37,11 +37,3 @@ th, .name, .result, .pts, .score, .new-teams, .new-prediction, .prediction, .tea
 footer {
 	background-color: #0b063e;
 }
-
-@media screen and (max-width: 400px) {
-		.name {
-		width: 110px;
-	} td, th {
-		padding: 7px 11px 7px 11px;;
-	}
-}
