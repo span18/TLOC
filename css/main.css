@@ -237,6 +237,7 @@ footer {
 		} .name {
 		width: 110px;
 	} .correctResult,
+		.correctScore,
 		.total {
 		width: 50px;
 	}
