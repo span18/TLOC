@@ -8,6 +8,15 @@ body {
 	margin: auto;
 }
 
+.adjust {
+	margin: auto;
+	display: block;
+	width: 330px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
 /* NAVBAR */
 
 .navbar {
