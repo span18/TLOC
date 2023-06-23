@@ -20,13 +20,71 @@
 		</header> -->
 			<!-- <h1>The league of chumps 21 / 22</h1> -->
 
+			<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+
  <header>
 		<div class="adjust">
 			<img src="images/TLOCtrophy.png" width="330px" height="645px" alt="trophy image">
 		</div> 
 	</header>
 
-<div class="navbar">
+<!-- <div class="navbar">
 
 	  <div class="subnavbtn">
   		<a id="zeroPadding" href="#">Home</a>
@@ -51,7 +109,21 @@
       <a href="2021season/index.html">20 / 21</a>
     </div>
   </div>
+</div> -->
+
+<div class="topnav" id="myTopnav">
+  <a href="#home"><i class="fa fa-fw fa-home" class="active"></i></a>
+  <a href="#news">Chumpions League</a>
+  <a href="#news">Trophy Cabinet</a>
+  <a href="#news">Hall Of Chumps</a>
+  <a href="#about">20/21 Stats</a>
+  <a href="#about">20/22 Stats</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
+
+
 
 	<section>
 		<header>
@@ -2378,5 +2450,6 @@ function myFunction() {
   }
 }
 </script>
+
 </body>
 </html>
