@@ -19,7 +19,7 @@ body {
 
 /* NAVBAR */
 
-/*.navbar {
+.navbar {
   overflow: hidden;
   background-color: #333;
   text-align: center;
@@ -41,9 +41,9 @@ body {
 
 #zeroPadding {
 	padding: 0px;
-}*/
+}
 
-/*.subnav {
+.subnav {
   float: left;
   overflow: hidden;
   width: 25%;
@@ -98,7 +98,7 @@ body {
 
 .subnav:hover .subnav-content {
   display: block;
-}*/
+}
 
 
 /* TABLE */
