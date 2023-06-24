@@ -1,0 +1,16 @@
+img {
+	width: 35%;
+	height: 100%;
+}
+
+.adjust {
+	width: 100%;
+	padding-top: 25px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.relegated {
+	background-color: red;
+}
