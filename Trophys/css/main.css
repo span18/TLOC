@@ -46,33 +46,11 @@
   to {opacity: 1;}
 }
 
-
-
-.row {
-	margin-top: 25px;
+#highlights {
+  display: flex;
+  background-color: red;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-}
-
-.left, .right {
-  width: 25%;
-}
-
-.middle {
+#highlights p {
   width: 50%;
 }
-
-
