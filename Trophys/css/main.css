@@ -46,6 +46,6 @@
   to {opacity: 1;}
 }
 
-.pic {
-  width: auto;
+.leftalign {
+  text-align: left;
 }
