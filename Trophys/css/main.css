@@ -46,11 +46,6 @@
   to {opacity: 1;}
 }
 
-#highlights {
-  display: flex;
-  background-color: red;
-}
-
-#highlights p {
-  width: 50%;
+.pic {
+  width: auto;
 }
