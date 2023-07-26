@@ -86,15 +86,19 @@ td, th {
 	width: 33.33%;
 }
 
+.back-red {
+	margin-bottom: 5px;
+}
+
 .back-red h3{
-	border-bottom: 5px solid red;
+	border-bottom: 3px solid #826c6c;
 	text-align: center;
 	width: 95%;
 	height: auto;
 	margin-left: 2.5%;
 	margin-right: 2.5%;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 hr {
