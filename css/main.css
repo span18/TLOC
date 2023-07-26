@@ -117,7 +117,6 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  border-bottom: 2px solid #3e3e3e;
 }
 
 .topnav a:hover {
@@ -231,6 +230,7 @@ td, th {
 	background-color: orange;
 }
 
+/*PREDICTION IS FOR THE 3 TEAMS ALL PLAYING TOGETHER*/
 .prediction {
 	width: 25%;
 }
@@ -243,6 +243,7 @@ td, th {
 	width: 15%;
 }
 
+/*THIS IS FOR WHEN TWO TEAMS ONLY ARE PLAYING*/
 .new-prediction {
 	width: 40%;
 }
@@ -316,5 +317,7 @@ footer {
 		.correctScore,
 		.total {
 		width: 50px;
-	}
+	} .prediction {
+    font-size: 15px;
+  }
 }
