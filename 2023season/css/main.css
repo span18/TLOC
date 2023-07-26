@@ -21,7 +21,8 @@ img {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  margin-top: 5px;
+  margin-top: 10px;
+
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -31,7 +32,7 @@ img {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 10px;
+  padding: 14px 5px;
   transition: 0.3s;
   width: 25%;
 }
