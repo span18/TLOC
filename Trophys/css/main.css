@@ -48,6 +48,8 @@
 
 .leftalign {
   text-align: left;
+  padding: 3px;
+  line-height: 23px;
 }
 
 td {
