@@ -26,97 +26,104 @@ Trophy Cabinet</a>
 </div>
 
 <header>
-		<!-- <div class="COTMAcontainer">
-			<img src="../images/COTMA.jpg" width="100%" height="100%" alt="trophy image">
+		<div class="COTMAcontainer">
+			<img src="../images/COTMA1.jpg" width="100%" height="100%" alt="trophy image">
 			<div class="mainTitle">
-		</div> -->
+		</div>
 		</header>
 		
 <br>
 <br>
 
 <section>
-		<table class="new-table">
+	<div class="tab">
+	<button class="tablinks" onclick="openCity(event, 'Aug')">Aug</button>
+  <button class="tablinks" onclick="openCity(event, 'Sep')">Sep</button>
+  <!-- <button class="tablinks" onclick="openCity(event, 'Oct')">Oct</button>
+  <button class="tablinks" onclick="openCity(event, 'Nov')">Lewis</button>
+  <button class="tablinks" onclick="openCity(event, 'Dec')">Richard</button>
+  <button class="tablinks" onclick="openCity(event, 'Jan')">Richard</button>
+  <button class="tablinks" onclick="openCity(event, 'Feb')">Richard</button>
+  <button class="tablinks" onclick="openCity(event, 'Mar')">Richard</button>
+  <button class="tablinks" onclick="openCity(event, 'Apr')">Richard</button>
+  <button class="tablinks" onclick="openCity(event, 'May')">Richard</button> -->
+</div>
 
-		<!-- 	<tr>
-		    <th class="new-teams">February</th> 
-		    <th class="prediction">Champ</th>
-		    <th class="prediction">Chump</th>
-		  </tr>
-		  <tr>
-		    <td></td>
-		    <td>Gary<br> CR 6<br> CS 2<br>Pts 12<br>Win Rate 42%</td>
-		    <td>Richard<br> CR 4<br> CS 1<br> Pts 7<br> Win Rate 26%</td>
-		  </tr>
+<!-- Tab content -->
+<div id="Aug" class="tabcontent">
 
-			<tr>
-		    <th class="new-teams">January</th> 
-		    <th class="prediction">Champ</th>
-		    <th class="prediction">Chump</th>
-		  </tr>
-		  <tr>
-		    <td></td>
-		    <td>Lewis<br> CR 7<br> CS 1<br>Pts 10<br>Win Rate 57%</td>
-		    <td>Daniel<br> CR 4<br> CS 1<br> Pts 7<br> Win Rate 36%</td>
-		  </tr>
+  	<section>
+		<header>
+			<h2 class="table">Table</h2>
+		</header>
 
-			<tr>
-		    <th class="new-teams">December</th> 
-		    <th class="prediction">Champ</th>
-		    <th class="prediction">Chump</th>
-		  </tr>
-		  <tr>
-		    <td></td>
-		    <td>Lewis<br> CR 4<br> CS 6<br>Pts 22<br>Win Rate 53%</td>
-		    <td>Charlie<br> CR 6<br> CS 2<br> Pts 12<br> Win Rate 42%</td>
-		  </tr>
+		<div>
+		<table class="top-table">
+			  <tr>
+			    <th class="result"></th>
+			    <th class="result">CR</th>
+			    <th class="result">CS</th>
+			    <th class="pts">Pts</th>
+			    <th class="score">Win %</th>
+			  </tr>
 
-			<tr>
-		    <th class="new-teams">November</th> 
-		    <th class="prediction">Champ</th>
-		    <th class="prediction">Chump</th>
-		  </tr>
-		  <tr>
-		    <td></td>
-		    <td>Gary<br> CR 3<br> CS 4<br>Pts 15<br>Win Rate 44%</td>
-		    <td>Charlie<br> CR 4<br> CS 1<br> Pts 7<br> Win Rate 31%</td>
-		  </tr>
+			  <tr>
+			    <td class="name">Charlie | Champ</td>
+			    <td class="correctResult">9</td>
+			    <td class="correctScore">1</td>
+			    <td class="total">12</td>
+			    <td>53%</td>
+			  </tr>
 
-			<tr>
-		    <th class="new-teams">October</th> 
-		    <th class="prediction">Champ</th>
-		    <th class="prediction">Chump</th>
-		  </tr>
-		  <tr>
-		    <td></td>
-		    <td>Lewis<br> CR 7<br> CS 3<br>Pts 16<br>Win Rate 50%</td>
-		    <td>Gary<br> CR 4<br> CS 1<br> Pts 7<br> Win Rate 25%</td>
-		  </tr>
+			  <tr>
+			    <td class="name">Richard</td>
+			    <td class="correctResult">12</td>
+			    <td class="correctScore">0</td>
+			    <td class="total">12</td>
+			    <td>63%</td>
+			  </tr>
 
-			<tr>
-		    <th class="new-teams">September</th> 
-		    <th class="prediction">Champ</th>
-		    <th class="prediction">Chump</th>
-		  </tr>
-		  <tr>
-		    <td></td>
-		    <td>Charlie<br> CR 5<br> CS 3 <br>Pts 14 <br>Win Rate 50%</td>
-		    <td>Richard<br> CR 5<br> CS 1<br> Pts 8<br> Win Rate 37%</td>
-		  </tr>
+			  <tr>
+			    <td class="name">Tomi</td>
+			    <td class="correctResult">11</td>
+			    <td class="correctScore">0</td>
+			    <td class="total">11</td>
+			    <td>58%</td>
+			  </tr>
+			  
+			  <tr>
+			    <td class="name">Lewis</td>
+			    <td class="correctResult">10</td>
+			    <td class="correctScore">0</td>
+			    <td class="total">10</td>
+			    <td>53%</td>
+			  </tr>
 
-		  <br>
-		  
-		  <tr>
-		    <th class="new-teams">August</th> 
-		    <th class="prediction">Champ</th>
-		    <th class="prediction">Chump</th>
-		  </tr>
-		  <tr>
-		    <td></td>
-		    <td>Daniel<br> CR 4<br> CS 3 <br>Pts 13 <br>Win Rate 35%</td>
-		    <td>Charlie<br> CR 4<br> CS 0<br> Pts 4<br> Win Rate 20%</td>
-		  </tr>
-		</table> -->
+			  <tr>
+			    <td class="name">Gary</td>
+			    <td class="correctResult">9</td>
+			    <td class="correctScore">0</td>
+			    <td class="total">9</td>
+			  	<td>47%</td>
+			  <tr>
+
+				<tr>
+			    <td class="name">Daniel | Chump</td>
+			    <td>8</td>
+			    <td>0</td>
+			    <td class="total">8</td>
+			    <td>42%</td>
+			  </tr>	  
+
+  
+			 </table>
+		</div>
+
+	</section>
+</div>
+
+<div id="Sep" class="tabcontent">
+	
 </section>
 	
 	<script src="../Trophys/javascript/javascript.js"></script>
