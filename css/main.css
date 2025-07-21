@@ -194,8 +194,7 @@ table {
 .top-table {
 	margin-bottom: 80px;
 	border-collapse: separate;
-  overflow-x: auto;
-  width: 100%;
+	width: 95%;
 }
 
 .new-table {
