@@ -21,7 +21,6 @@ img {
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1f1f1;
   margin-top: 10px;
   text-decoration: none;
   color: black;
@@ -30,6 +29,7 @@ img {
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
+  background-color: #f1f1f1;
   float: left;
   border: none;
   outline: none;
@@ -101,5 +101,6 @@ img {
 
 .top-table {
   width: 100%;
+  padding-top: 50px;
 }
 
