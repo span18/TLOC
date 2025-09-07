@@ -68,6 +68,11 @@ img {
   to {opacity: 1;}
 }
 
+.top-table {
+  width: 100%;
+  margin-top: 100px;
+}
+
 .row {
 	margin-top: 25px;
 }
@@ -97,10 +102,5 @@ img {
 
 .bold {
   font-weight: bold;
-}
-
-.top-table {
-  width: 100%;
-  padding-top: 50px;
 }
 
