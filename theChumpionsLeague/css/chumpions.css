@@ -33,6 +33,11 @@ th, .name, .result, .pts, .score, .new-teams, .new-prediction, .prediction, .tea
   background-color: #0b063e;
 }
 
+
+.new-teams{
+width: 20%
+}
+
 .relegated {
 	background-color: red;
 }
