@@ -196,6 +196,10 @@ hr {
 	height: 2px;
 }
 
+.prediction-btm {
+padding-bottom: 20px;
+}
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -226,7 +230,7 @@ hr {
 /* Create an active/current tablink class */
 .tab button.active {
   background-color: #ccc;
-  border-bottom: 5px solid #826c6c;
+  border-bottom: 5px solid #333;
 }
 
 /* Style the tab content */
