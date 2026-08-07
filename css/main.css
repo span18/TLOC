@@ -200,6 +200,30 @@ hr {
 padding-bottom: 20px;
 }
 
+.font-size {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.team1,
+.team2 {
+    flex: 1;
+}
+
+.team1 {
+    text-align: right;
+}
+
+.team2 {
+    text-align: left;
+}
+
+.vs {
+    padding: 0 10px;
+    flex: 0 0 auto;
+}
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
