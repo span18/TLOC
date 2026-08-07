@@ -1,22 +1,26 @@
 function openCity(evt, cityName) {
-  // Declare all variables
   var i, tabcontent, tablinks;
+  var currentTab = document.getElementById(cityName);
+  var isOpen = currentTab.style.display === "block";
 
-  // Get all elements with class="tabcontent" and hide them
+  // Hide all tabs
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
 
-  // Get all elements with class="tablinks" and remove the class "active"
+  // Remove active class from all buttons
   tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
 
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
+  // If it wasn't already open, show it
+  if (!isOpen) {
+    currentTab.style.display = "block";
+    evt.currentTarget.className += " active";
+  }
 }
 
+// Open the default tab on page load
 document.getElementById("defaultOpen").click();
