@@ -135,17 +135,16 @@ td, th {
 
 .green,
 .tally-green {
-	background-color: green;
+	background-color: #7fb355;
 }
-
 .red,
 .tally-red {
-	background-color: red;
+	background-color: #ff0000ad;
 }
 
 .orange,
 .tally-orange {
-	background-color: orange;
+	background-color: #ff721ea8;
 }
 
 /*PREDICTION IS FOR THE 3 TEAMS ALL PLAYING TOGETHER*/
