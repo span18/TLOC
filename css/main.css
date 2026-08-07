@@ -219,7 +219,11 @@ padding-bottom: 20px;
   padding: 14px 5px;
   transition: 0.3s;
   width: 100%;
-  font-size: 17px;
+  /*font-size: 17px;*/
+}
+
+.font-size {
+	font-size: 17px;
 }
 
 /* Change background color of buttons on hover */
