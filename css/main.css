@@ -199,28 +199,38 @@ hr {
 padding-bottom: 20px;
 }
 
-.font-size {
-    display: flex;
-    align-items: center;
+.tablinks {
     width: 100%;
 }
 
-.team1,
-.team2 {
-    flex: 1;
+.tablinks {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
 }
 
 .team1 {
-    text-align: right;
-}
-
-.team2 {
-    text-align: left;
+    grid-column: 1;
+    justify-self: end;
+    padding-right: 18px;
 }
 
 .vs {
-    padding: 0 10px;
-    flex: 0 0 auto;
+    grid-column: 2;
+}
+
+.team2 {
+    grid-column: 3;
+    justify-self: start;
+    padding-left: 18px;
+}
+
+.outcome {
+    grid-column: 1 / 4;
+    grid-row: 2;
+    padding-top: 7px;
+    text-align: center;
 }
 
 .tab {
