@@ -362,5 +362,8 @@ footer {
 		width: 50px;
 	} .prediction {
     font-size: 15px;
+  } .arrow {
+    height: 17px;
+    width:17px }
   }
 }
