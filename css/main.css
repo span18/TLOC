@@ -115,7 +115,7 @@ table {
 td, th {
   border: 1px solid #dddddd;
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   padding: 6px;
 }
 
@@ -343,7 +343,8 @@ footer {
 		  padding: 10px;
 		  background-color: green;
 		} .name {
-		width: 120px; } 
+      font-size: 16px;
+		  width: 120px; } 
     .correctResult,
 		.correctScore,
 		.total {
