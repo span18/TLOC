@@ -355,6 +355,8 @@ footer {
     width: 17px; }
     .tab button {
   font-size: 16px;}
-  .results .pts .score {
+  .result,
+  .pts,
+  .score {
     font-size: 14px;}
 }
