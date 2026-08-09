@@ -209,7 +209,7 @@ padding-bottom: 20px;
 .team1 {
     grid-column: 1;
     justify-self: end;
-    padding-right: 18px;
+    padding-right: 16px;
 }
 
 .vs {
@@ -219,7 +219,7 @@ padding-bottom: 20px;
 .team2 {
     grid-column: 3;
     justify-self: start;
-    padding-left: 18px;
+    padding-left: 16px;
 }
 
 .outcome {
@@ -249,7 +249,7 @@ padding-bottom: 20px;
   padding: 14px 5px;
   transition: 0.3s;
   width: 100%;
-	font-size: 16px;
+	font-size: 17px;
 }
 
 /* Change background color of buttons on hover */
@@ -354,5 +354,5 @@ footer {
     height: 17px;
     width: 17px; }
     .tab button {
-  font-size: 15px;}
+  font-size: 16px;}
 }
