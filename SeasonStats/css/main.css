@@ -315,7 +315,9 @@ top-table th {
 
     @media screen and (max-width: 400px) {
       .top-table td {
-        font-size:14px;
-        padding: 5px;
-      }
+        font-size:13px;
+        padding: 5px;}
+      .tab button {
+        font-size: 13px;
+        padding: 8 8px;}
     }
