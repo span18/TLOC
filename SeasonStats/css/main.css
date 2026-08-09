@@ -111,6 +111,7 @@ table {
 
 td, th {
   border: 1px solid #dddddd;
+  font-size: 15px;
   text-align: center;
   padding: 7px;
 }
@@ -310,4 +311,11 @@ top-table th {
     /* Header + first column overlap cell */
     top-table th:first-child {
       z-index: 3;
+    }
+
+    @media screen and (max-width: 400px) {
+      .top-table td {
+        font-size:14px;
+        padding: 5px;
+      }
     }
