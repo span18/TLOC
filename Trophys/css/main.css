@@ -275,3 +275,11 @@ td {
 .top-table {
   width: 100%;
 }
+
+@media screen and (max-width: 400px) {
+    .tab button {
+  font-size: 13px;
+  padding: 8 8px;}
+  table {
+    font-size: 14px;}
+}
