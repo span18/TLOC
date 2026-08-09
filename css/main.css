@@ -343,7 +343,7 @@ footer {
 		  padding: 10px;
 		  background-color: green;
 		} .name {
-		width: 110px;
+		width: 140px;
 	} .correctResult,
 		.correctScore,
 		.total {
@@ -355,4 +355,6 @@ footer {
     width: 17px; }
     .tab button {
   font-size: 16px;}
+  .results .pts .score {
+    font-size: 14px;}
 }
