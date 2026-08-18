@@ -190,9 +190,9 @@ hr {
 	height: 2px;
 }
 
-.prediction-btm {
+/*.prediction-btm {
 padding-bottom: 20px;
-}
+}*/
 
 .tablinks {
     width: 100%;
@@ -233,8 +233,8 @@ padding-bottom: 20px;
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   text-decoration: none;
   color: black;
 }
@@ -360,4 +360,11 @@ footer {
   .pts,
   .score {
     font-size: 14px;}
+  .tally-red,
+  .tally-orange,
+  .tally-green {
+  display: inline-block;
+  width: 8px;
+  height: 17px;
+  }
 }
