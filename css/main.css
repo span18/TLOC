@@ -323,6 +323,30 @@ footer {
   margin-bottom: 0px;
 }
 
+/*To add names above table*/
+
+/*.points-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  text-align: center;
+  background: #fff;
+}
+
+.points-table th {
+  padding: 8px 3px;
+  font-size: 14px;
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+}
+
+.points-table td {
+  padding: 8px 3px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}*/
+
 
 @media screen and (max-width: 1000px) {
 	.mainTitle {
