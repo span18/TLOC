@@ -128,23 +128,21 @@ td, th {
     width: auto;
 }
 
+.score,
+.result,
+.pts,
+.name,
+.teams,
+.prediction,
+.new-teams,
+.new-prediction {
+  background-color: #333;
+  color: white;
+}
+
 .total {
   font-size: 17px;
   font-weight: bold;
-}
-
-.green,
-.tally-green {
-  background-color: #7fb355;
-}
-.red,
-.tally-red {
-  background-color: #ff0000ad;
-}
-
-.orange,
-.tally-orange {
-  background-color: #ff721ea8;
 }
 
 /*PREDICTION IS FOR THE 3 TEAMS ALL PLAYING TOGETHER*/
